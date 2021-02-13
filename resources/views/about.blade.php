@@ -7,6 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>สวัสดีประเทศไทย</h1>
+    <h1>สวัสดีราชภัฏเชียงใหม่</h1>
 </body>
 </html>
