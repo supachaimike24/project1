@@ -8,8 +8,8 @@
 
 </head>
 <body>
-    <a href="/contact">11111111111111</a>
-    <a href="/about">02222222222</a>
+    <a href="/contact">page1</a>
+    <a href="/about">page2</a>
     <h1>สวัสดีประเทศไทย</h1>
 
 </body>

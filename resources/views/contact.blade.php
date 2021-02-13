@@ -7,6 +7,8 @@
     <title>Document</title>
 </head>
 <body>
+    <a href="/contact">page1</a>
+    <a href="/about">page2</a>
     <h1>สวัสดีศุภชัย</h1>
 </body>
 </html>
