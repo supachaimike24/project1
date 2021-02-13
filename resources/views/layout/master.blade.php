@@ -8,10 +8,12 @@
 
 </head>
 <body>
-
+    <a href="/">หน้าแรก</a>
     <a href="/contact">page1</a>
     <a href="/about">page2</a>
-    <h1>สวัสดีประเทศไทย{{$name}} อายุ{{$age}}</h1>
+   @yield("content")
+    <hr>
+    &copy; 2021 Supachai Duangsuwan
 
 </body>
 </html>
