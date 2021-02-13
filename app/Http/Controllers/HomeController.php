@@ -23,5 +23,15 @@ class HomeController extends Controller
     {
         return view('about');
     }
-}
 
+
+public function hello($name,$age)
+    {
+
+        $data = [
+            'name' => $name,
+            'age' => $age
+        ];
+        return view ('hello', $data);
+    }
+}
