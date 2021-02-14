@@ -11,6 +11,7 @@
     <a href="/">หน้าแรก</a>
     <a href="/contact">page1</a>
     <a href="/about">page2</a>
+    สวัสดีผู้ใช้งาน@if(auth()->check()) {{auth()->user()->name}} <a href="/auth/logout"> ออกจากระบบ</a> @else บุคคลทั่วไป @endif
    @yield("content")
     <hr>
     &copy; 2021 Supachai Duangsuwan

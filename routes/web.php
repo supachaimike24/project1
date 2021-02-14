@@ -36,11 +36,11 @@ Route::get('/user/create', [UserController::class, 'create']);
 Route::post('/user/store', [UserController::class, 'store']);
 Route::get('/user/edit/{id}', [UserController::class, 'edit']);
 Route::post('/user/update/{id}', [UserController::class, 'update']);
-Route::get('/user/delete/{id}', [UserController::class, 'delete']);
+Route::get('/ser/delete/{id}', [UserController::class, 'delete']);
 
 
 
-Route::get('/post', [PostController::class, 'index']);
+Route::get('/post', [PostController::class, 'index'])->name("login");
 Route::get('/post/create', [PostController::class, 'create']);
 Route::post('/post/store', [PostController::class, 'store']);
 Route::get('/post/edit/{id}', [PostController::class, 'edit']);
@@ -48,7 +48,8 @@ Route::post('/post/update/{id}', [PostController::class, 'update']);
 Route::get('/post/delete/{id}', [PostController::class, 'delete']);
 
 
-Route::get('/auth', [AuthController::class, 'login']);
-Route::get('/auth/create', [AuthController::class, 'doLogin']);
-Route::post('/auth/store', [AuthController::class, 'register']);
-Route::get('/auth/edit/{id}', [AuthController::class, 'doRegister']);
+Route::get('/auth/login', [AuthController::class, 'login']);
+Route::post('/auth/doLogin', [AuthController::class, 'doLogin']);
+Route::get('/auth/register', [AuthController::class, 'register']);
+Route::post('/auth/doRegister', [AuthController::class, 'doRegister']);
+Route::get('/auth/logout', [AuthController::class, 'logout']);
