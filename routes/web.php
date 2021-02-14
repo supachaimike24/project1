@@ -22,4 +22,4 @@ Route::get('hello/{name}/{age}', [HomeController::class, 'hello']);
 
 Route::get('/category', [CategoryController::class, 'index']);
 Route::get('/category/create', [CategoryController::class, 'create']);
-
+Route::post('/category/store', [CategoryController::class, 'store']);
