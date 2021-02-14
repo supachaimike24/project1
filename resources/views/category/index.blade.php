@@ -20,7 +20,8 @@
                     <td>{{$item->id}}</td>
                     <td>{{$item->name}}</td>
                     <td>{{$item->created_at}}</td>
-                    <td>แก้ไข </td>
+                    <td><a href="category/edit/{{$item->id}}"> แก้ไข</a> </td>
+                    <td><a href="category/delete/{{$item->id}}">ลบ</a> </td>
                 </tr>
                 @endforeach
                 </thead>
