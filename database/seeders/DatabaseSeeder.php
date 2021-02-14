@@ -18,7 +18,7 @@ class DatabaseSeeder extends Seeder
         $user = new User();
         $user->name = "Supachai Duangsuwan";
         $user->username ="admin";
-        $user->email = "proevolutionsoccer24mmv@gmail.com";
+        $user->email = "prossevolutionsoccer24mmv@gmail.com";
         $user->password = Hash::make("1234");
         $user->save();
     }

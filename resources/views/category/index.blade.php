@@ -7,7 +7,7 @@
 
             <tr>
                 <td>ลำดับ</td>
-                <td>ชื่อหมวดหมู่</td>
+                <td>ชื่อ</td>
                 <td>สร้างเมื่อ</td>
                 <td>จัดการ</td>
             </tr>
@@ -27,5 +27,6 @@
                 </thead>
                 </tbody>
     </table>
+
 
     @endsection
